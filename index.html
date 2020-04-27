@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <link rel="stylesheet" href="main.css">
+  <title>Calender and Clock</title>
+</head>
+<body>
+  <div class="container">
+  <div id="clock"></div>
+  <div id="Date"></div>
+  <hr class="line">
+  <form id="dateToDay">
+      <div class="converter">
+        Convert your date to day
+      <br>
+      <input type="number" id="d" class="valueInput" placeholder="Enter date of the month.">
+      <select id="dropdownMenu" class="dropdown" onchange="selectMonth();">
+        <option value="0">January</option>
+        <option value="1">February</option>
+        <option value="2">March</option>
+        <option value="3">April</option>
+        <option value="4">May</option>
+        <option value="5">June</option>
+        <option value="6">July</option>
+        <option value="7">August</option>
+        <option value="8">September</option>
+        <option value="9">October</option>
+        <option value="10">November</option>
+        <option value="11">December</option>
+      </select>
+      <input id="Year" class="valueInput" type="number" placeholder="Enter year in 4 digits.">
+      <input type="submit" class="submitButton" value="Submit">
+      </div>
+  </form>
+  </div>
+  <script src="java.js"></script>
+</body>
+</html>

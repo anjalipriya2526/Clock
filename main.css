@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+body {
+  background-color: #121212;
+}
+
+#clock {
+  font-family: 'Orbitron', sans-serif;
+  color: #66ff99;
+  font-size: 70px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+#Date {
+  font-family: 'Orbitron', sans-serif;
+  color: #66ff99;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px; 
+}
+
+.converter {
+  font-family: 'Orbitron', sans-serif;
+  color: #66ff99;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 15px;
+  margin-bottom: 20px;
+}
+
+.container {
+  border: solid 4px white;
+  border-radius: 20px;
+  margin: 50px auto 30px;
+  overflow: hidden;    
+  padding: 15px;
+  width: 720px;
+  height: 450px;
+}
+
+.line{
+  background-color: white; 
+  height: 4px;
+  border: none;
+  color: white;
+  width: 95%;
+}
+
+.valueInput, .dropdown {
+  font-family: 'Arial', sans-serif;
+  padding: 10px 10px;
+  font-size: 12.5px;
+  width: 180px;
+}
+
+.submitButton {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  color: #121212;
+  background-color: #66ff99;
+  border: none;
+  border-radius: 10px;
+  padding: 6px 16px;
+  font-size: 18px;
+}
+
+.submitButton:focus {
+  border: none;
+  outline: none;
+}
+
+@media only screen and (max-width: 770px) {
+    #clock {
+        font-size: 49px;
+        padding-top: 21px;
+        padding-bottom: 10.5px; 
+    }
+    #Date {
+         font-size: 24.5px;
+         padding-top: 10.5px;
+         padding-bottom: 10.5px; 
+    }
+    .converter {
+         font-size: 31.5px;
+         padding-top: 10.5px;
+         margin-bottom: 14px; 
+    }
+    .container {
+          border: solid 2.8px white;
+          border-radius: 14px;
+          margin: 35px auto 21px;
+          overflow: hidden;    
+          padding: 10.5px;
+          width: 504px;
+          height: 315px;
+    }
+    .line {
+          height: 2.8px;
+    }
+    .valueInput, .dropdown {
+          font-family: 'Arial', sans-serif;
+          padding: 7px;
+          font-size: 8.75px;
+          width: 126px;
+    }
+    .submitButton {
+          letter-spacing: 1.75px;
+          border-radius: 7px;
+          padding: 4.2px 11.2px;
+          font-size: 12.6px; 
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    #clock {
+        font-size: 34.3px;
+        padding-top: 14.7px;
+        padding-bottom: 7.35px; 
+    }
+    #Date {
+         font-size: 17.15px;
+         padding-top: 7.35px;
+         padding-bottom: 7.35px; 
+    }
+    .converter {
+         font-size: 22.05px;
+         padding-top: 7.35px;
+         margin-bottom: 9.8px; 
+    }
+    .container {
+          border: solid 1.96px white;
+          border-radius: 9.8px;
+          margin: 50px auto 14.7px;
+          overflow: hidden;    
+          padding: 7.35px;
+          width: 352.8px;
+          height: 220.5px;
+    }
+    .line {
+          height: 1.96px;
+    }
+    .valueInput, .dropdown {
+          font-family: 'Arial', sans-serif;
+          padding: 4.9px;
+          font-size: 7px;
+          width: 88.2px;
+    }
+    .submitButton {
+          letter-spacing: 1.225px;
+          border-radius: 4.9px;
+          padding: 2.94px 7.84px;
+          font-size: 8.82px; 
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    #clock {
+        font-size: 27.44px;
+        padding-top: 11.76px;
+        padding-bottom: 5.88px; 
+    }
+    #Date {
+         font-size: 13.72px;
+         padding-top: 5.88px;
+         padding-bottom: 5.88px; 
+    }
+    .converter {
+         font-size: 17.64px;
+         padding-top: 5.88px;
+         margin-bottom: 7.84px; 
+    }
+    .container {
+          border: solid 1.568px white;
+          border-radius: 7.84px;
+          margin: 50px auto 11.76px;
+          overflow: hidden;    
+          padding: 5.88px;
+          width: 282.24px;
+          height: 176.4px;
+    }
+    .line {
+          height: 1.568px;
+    }
+    .valueInput, .dropdown {
+          font-family: 'Arial', sans-serif;
+          padding: 3.92px;
+          font-size: 5.6px;
+          width: 70.56px;
+    }
+    .submitButton {
+          letter-spacing: 0.98px;
+          border-radius: 3.92px;
+          padding: 2.352px 6.272px;
+          font-size: 7.056px; 
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    #clock {
+        font-size: 21.952px;
+        padding-top: 9.408px;
+        padding-bottom: 4.704px; 
+    }
+    #Date {
+         font-size: 10.976px;
+         padding-top: 4.704px;
+         padding-bottom: 4.704px; 
+    }
+    .converter {
+         font-size: 14.112px;
+         padding-top: 4.704px;
+         margin-bottom: 6.272px; 
+    }
+    .container {
+          border: solid 1.2544px white;
+          border-radius: 6.272px;
+          margin: 40px auto 9.408px;
+          overflow: hidden;    
+          padding: 4.704px;
+          width: 225.792px;
+          height: 141.12px;
+    }
+    .line {
+          height: 1.2544px;
+    }
+    .valueInput, .dropdown {
+          font-family: 'Arial', sans-serif;
+          padding: 3.136px;
+          font-size: 4.48px;
+          width: 56.448px;
+    }
+    .submitButton {
+          letter-spacing: 0.784px;
+          border-radius: 3.136px;
+          padding: 1.8816px 5.0176px;
+          font-size: 5.6448px; 
+    }
+}
+
+
+
+
+
+
+
+
+
